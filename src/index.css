@@ -2,12 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  /* background: url("/src/assets/bgImage.png")  no-repeat fixed center center ; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
 }
+
+/* .app{
+  height: 100vh;
+  width: 100vw;
+  background-image: url('/src/assets/bgImage.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: figure; 
+} */
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

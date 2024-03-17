@@ -16,6 +16,7 @@ import {
 import ConfettiExplosion from "react-confetti-explosion";
 import { Link } from "react-router-dom";
 import GameOverPopup from "./GameOverPopup";
+import backbtn from "/src/assets/backbtn.png";
 
 type randomDataType = {
   id: string;
@@ -82,7 +83,7 @@ const Game = () => {
   }, []);
 
   const handleCardClick = (id: string) => {
-    if (disabledCards.includes(id)) return; // If the card is already disabled, return early
+    if (disabledCards.includes(id)) return;
     if (selected.includes(id)) {
       setToggle((prev) => !prev);
       setMatch((prev) => prev + 1);
@@ -121,7 +122,7 @@ const Game = () => {
           className="hover:scale-105"
           onClick={() => alert("You are about to quit your game!!☠️")}
         >
-          <img src="/src/assets/backbtn.png" alt="back" className="h-[90px]" />
+          <img src={backbtn} alt="back" className="h-[90px]" />
         </button>
       </Link>
       <div>

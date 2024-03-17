@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import ReactFlipCard from "reactjs-flip-card";
 import ProgressBar from "./ProgressBar";
 import {
@@ -46,7 +46,6 @@ const Game = () => {
   const [match, setMatch] = useState(0);
   const [toggle, setToggle] = useState(false);
 
-  const [isGameOver, setIsGameOver] = useState(false);
   const [isWinner, setIsWinner] = useState(false);
 
   const [randomleftData, setRandomleftData] = useState<randomDataType>([]);

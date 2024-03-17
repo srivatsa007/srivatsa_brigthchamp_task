@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import InstructionCard from "./InstructionCard";
+import backbtn from "/src/assets/backbtn.png";
+import line from "/src/assets/instruct/line.png";
+import playbtn from "/src/assets/playbtn.png";
 import {
   cardImage1,
   cardImage2,
@@ -14,7 +17,7 @@ const Instruction = () => {
     <div className="h-screen w-full relative flex item-center justify-center">
       <Link to="/introscreen3" className="absolute top-6 left-6">
         <button className="hover:scale-105">
-          <img src="/src/assets/backbtn.png" alt="back" className="h-[90px]" />
+          <img src={backbtn} alt="back" className="h-[90px]" />
         </button>
       </Link>
 
@@ -40,13 +43,13 @@ const Instruction = () => {
         />
 
         <div className=" absolute -z-10 p-8">
-          <img src="/src/assets/instruct/line.png" alt="" className="" />
+          <img src={line} alt="" className="" />
         </div>
       </div>
 
       <Link to="/game" className="absolute bottom-6 right-6">
         <button className="hover:scale-105">
-          <img src="/src/assets/playbtn.png" alt="play" className="h-[90px]" />
+          <img src={playbtn} alt="play" className="h-[90px]" />
         </button>
       </Link>
     </div>

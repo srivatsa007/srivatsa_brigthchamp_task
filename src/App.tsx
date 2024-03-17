@@ -14,7 +14,6 @@ function App() {
           <Route path="/introscreen2" element={<IntroTwo />} />
           <Route path="/introscreen3" element={<IntroThree />} />
           <Route path="/instructions" element={<Instruction />} />
-
           <Route path="/game" element={<Game2 />} />
         </Routes>
       </Router>

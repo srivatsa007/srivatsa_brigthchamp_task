@@ -1,4 +1,3 @@
-import loaderFull from "../images/loader-full.svg";
 import greyBanana from "../../assets/bananainActive.png";
 import ripeBanana from "../../assets/bananaActive.png";
 import halfBanana from "../../assets/bananaHalf.png";

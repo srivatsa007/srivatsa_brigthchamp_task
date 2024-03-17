@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import popup from "../../assets/resultscreen.png";
 import yaybtn from "../../assets/YayOkayBtn.png";
 import { Link } from "react-router-dom";
